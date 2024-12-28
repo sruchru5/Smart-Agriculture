@@ -1,0 +1,38 @@
+.card-green {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #198754;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+  }
+
+  .card-green h1 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+  }
+
+  .txt-green span {
+    font-size: 30px;
+    color: #198754;
+  }
+
+  @media (max-width: 500px) {
+    .card-green h1 {
+      font-size: 15px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .card-title{
+      font-size: 20px;
+    }
+
+    .txt-green span {
+      font-size: 15px;
+      color: #198754;
+    }
+  }
